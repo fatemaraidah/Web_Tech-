@@ -1,0 +1,93 @@
+<form>
+  <h1> DONOR INFORMATION</h1><br>
+  <label for="fname">First Name: </label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last Name: </label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="company">Company: </label><br>
+  <input type="text" id="company" name="company"><br><br>
+  <label for="address">Adress: </label><br>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="city">City: </label><br>
+  <input type="text" id="city" name="city"><br><br>
+
+  <form action="/action_page.php">
+  <label for="cars">Select Your Country:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">Bangladesh</option>
+    <option value="saab">Canada</option>
+    <option value="opel">USA</option>
+    <option value="audi">Italy</option>
+    <option value="audi">Australia</option>
+  </select>
+  <br><br>
+
+  <form action="/action_page.php">
+  <label for="cars">Select Your State:</label>
+  <select name="cars" id="cars">
+    <option value="volvo">Dhaka</option>
+    <option value="saab">Faridpur</option>
+    <option value="opel">Tangail</option>
+    <option value="audi">Bikrampur</option>
+    <option value="audi">Cumilla</option>
+  </select>
+  <br><br>
+
+  <label for="zip">Zip Code: </label><br>
+  <input type="text" id="zip" name="zip"><br><br>
+  <label for="phone">Phone Number: </label><br>
+  <input type="text" id="phone" name="phone"><br><br>
+  <label for="email">E-mail: </label><br>
+  <input type="text" id="email" name="email"><br><br>
+  <label for="donate">Select Donation Amounts: </label><br>
+
+  <form action="/action_page.php">
+  <input type="radio" id="amount1" name="amount1" value=" 25">
+  <label for="amount1"> $25</label>
+  <input type="radio" id="amount2" name="amount2" value="50">
+  <label for="amount2"> $50</label>
+  <input type="radio" id="amount3" name="amount3" value="75">
+  <label for="amount3"> $75</label>
+  <input type="radio" id="amount4" name="amount4" value=" 100">
+  <label for="amount4"> $100</label>
+  <input type="radio" id="amount5" name="amount5" value=" other">
+  <label for="amount4"> Others</label><br><br>
+  <label for="amnt">Other Amount: </label><br>
+  <input type="text" id="amnt" name="amnt"><br><br>
+
+  <label for="rec donation">Recurring Donation: </label><br>
+  <input type="checkbox" id="rec donation" name="rec donation" value=" interested">
+  <label for="rec donation"> I am interested in donating on a regular basis.</label><br>
+
+
+  <h1> Additional InformationN</h1>
+  <p>Please enter your name, company or organisation as you would like to appear in our publication.</p>
+  <label for="name">Your Name: </label><br>
+  <input type="text" id="name" name="name"><br><br>
+
+  <input type="checkbox" id="x1" name="x1" value=" anonymous">
+  <label for="x1"> I would like my gift to remain anonymous.</label><br>
+  <input type="checkbox" id="x2" name="x2" value=" hf">
+  <label for="x2"> My employer offers a matching gift program. will mail the matching gift form.</label><br>
+  <input type="checkbox" id="x3" name="x3" value=" ajs">
+  <label for="x3"> Please save the cost of acknowledging this gift by not mailing a thank you letter.</label><br><br>
+
+  <label for="cmmnt">Your Comments: </label><br>
+  <textarea rows="4" cols="50" name="comment" form="cmmnt">
+   Enter text here...</textarea><br><br>
+
+   <input type="checkbox" id="y1" name="y1" value=" m">
+  <label for="y1"> E-mail.</label><br>
+  <input type="checkbox" id="y2" name="y2" value=" p">
+  <label for="y2"> Postal Mail.</label><br>
+  <input type="checkbox" id="y3" name="y3" value=" phn">
+  <label for="y3"> Telephone.</label><br>
+  <input type="checkbox" id="y4" name="y4" value=" f">
+  <label for="y4"> Fax.</label><br><br>
+
+
+
+  <br>
+  <input type="submit" value="Continue">  
+  <input type="reset" value="Reset">
+</form>
