@@ -1,0 +1,22 @@
+[
+    {
+        "Name": "Raidah Hasan",
+        "Email": "raidah@gmail.com",
+        "User_Name": "raidah",
+        "Password": "raidah2022#",
+        "Gender": "Female",
+        "Date_of_Birth": "2022-10-30",
+        "Image": "images\/image4.jpg",
+        "Id": 1
+    },
+    {
+        "Name": "",
+        "Email": "",
+        "User_Name": "",
+        "Password": "",
+        "Gender": null,
+        "Date_of_Birth": "",
+        "Image": "images\/images.png",
+        "Id": 2
+    }
+]
