@@ -1,0 +1,52 @@
+[
+    {
+        "Name": "Fatema Nur",
+        "Email": "fatema@gamil.com",
+        "User_Name": "Raidah",
+        "Password": "A12493578@",
+        "Gender": "Female",
+        "Date_of_Birth": "2018-11-22",
+        "Image": "images\/images.png",
+        "Id": 1
+    },
+    {
+        "Name": "Yusha Nur",
+        "Email": "yushahasan98@gmail.com",
+        "User_Name": "Yusha",
+        "Password": "Sas2468@",
+        "Gender": "Female",
+        "Date_of_Birth": "2022-02-07",
+        "Image": "images\/image5.jpg",
+        "Id": 2
+    },
+    {
+        "Name": "Raydah Hasan",
+        "Email": "20-43385-1@student.aiub.edu",
+        "User_Name": "Rydahh",
+        "Password": "Hasan@44",
+        "Gender": "Female",
+        "Date_of_Birth": "2011-04-20",
+        "Image": "images\/images.png",
+        "Id": 3
+    },
+    {
+        "Name": "Zayn Malik",
+        "Email": "20-43337-1@student.aiub.edu",
+        "User_Name": "Zayn",
+        "Password": "Z235839@",
+        "Gender": "Male",
+        "Date_of_Birth": "2001-06-10",
+        "Image": "images\/images.png",
+        "Id": 4
+    },
+    {
+        "Name": "",
+        "Email": "",
+        "User_Name": "",
+        "Password": "",
+        "Gender": null,
+        "Date_of_Birth": "",
+        "Image": "images\/images.png",
+        "Id": 5
+    }
+]
