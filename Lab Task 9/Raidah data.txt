@@ -1,0 +1,82 @@
+[
+  {
+    "Name": "Yusha Nur",
+    "Email": "yushahasan98@gmail.com",
+    "User_Name": "Yusha",
+    "Password": "Sas2468@",
+    "Gender": "Female",
+    "Date_of_Birth": "2022-02-07",
+    "Image": "images\/x.png",
+    "Id": 2
+  },
+  {
+    "Name": "Raydah Hasan",
+    "Email": "20-43385-1@student.aiub.edu",
+    "User_Name": "Rydahh",
+    "Password": "Hasan@44",
+    "Gender": "Female",
+    "Date_of_Birth": "2011-04-20",
+    "Image": "images\/images.png",
+    "Id": 3
+  },
+  {
+    "Name": "Zayn Haider",
+    "Email": "zayn@student.aiub.edu",
+    "User_Name": "Zayn",
+    "Password": "Z235839@",
+    "Gender": "Male",
+    "Date_of_Birth": "2001-06-10",
+    "Image": "images\/images.png",
+    "Id": 4
+  }
+]
+
+
+
+// <?php 
+function db_conn()
+{
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "vendordb";
+
+    try {
+        $conn = new PDO('mysql:host='.$servername.';dbname='.$dbname.';charset=utf8', $username, $password);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+        // var_dump($conn) ;
+    } catch (PDOException $e) {
+        echo $e->getMessage();
+    }
+    return $conn;
+}
+
+
+function db_con()
+{
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "registration";
+
+    try {
+        $conn = new PDO('mysql:host='.$servername.';dbname='.$dbname.';charset=utf8', $username, $password);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+        // var_dump($conn) ;
+    } catch (PDOException $e) {
+        echo $e->getMessage();
+    }
+    return $conn;
+
+    if($conn){
+        echo "Connection Successful";
+    }
+    else {
+        die(PDO_error($conn));
+    }
+}
+?> 
+ 
+
